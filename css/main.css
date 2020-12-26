@@ -233,7 +233,9 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 720px) {
   .top-bar__background {
     height: 60px;
-    opacity: 0.4;
+    position: fixed;
+    background-color: rgba(1,1,1);
+    opacity: 1;
   }
 }
 

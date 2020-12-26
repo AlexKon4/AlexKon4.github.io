@@ -155,7 +155,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 1220px) {
   .container {
-    padding: 0 calc(10px + 20 * ((100vw - 320px) / (1220 - 320)));
+    padding: 0 calc(10px + 20 * ((100vw - 320px) / (1220 - 320)))
   }
 }
 
@@ -287,7 +287,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 1070px) {
   .menu__list-item {
-    margin-left: calc(5px + (80-40) * ((100vw - 620px) / (1140 - 700)));
+    margin-left: calc(5px + (80-40) * ((100vw - 620px) / (1140 - 700)))
   }
 }
 
@@ -492,7 +492,7 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   padding: 18px 35px;
   background-color: #ff7340;
-  transition-property: scale();
+  transition-property: scale;
   transition-duration: 130ms;
   box-shadow: inset 0px 0px 17px 4px rgba(0, 0, 0, 0.2);
 }
